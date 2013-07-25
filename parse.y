@@ -132,7 +132,7 @@ extern int here_doc_first_line;
 extern int bash_input_fd_changed;
 #endif
 
-extern int errno;
+#include <errno.h>
 /* **************************************************************** */
 /*								    */
 /*		    "Forward" declarations			    */

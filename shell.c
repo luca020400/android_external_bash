@@ -94,7 +94,7 @@ extern struct passwd *getpwuid ();
 #endif /* !HAVE_GETPW_DECLS */
 
 #if !defined (errno)
-extern int errno;
+#include <errno.h>
 #endif
 
 #if defined (NO_MAIN_ENV_ARG)

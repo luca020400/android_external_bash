@@ -68,7 +68,7 @@
 #include <glob/strmatch.h>
 
 #if !defined (errno)
-extern int errno;
+#include <errno.h>
 #endif /* !errno */
 
 /* The size that strings change by. */
