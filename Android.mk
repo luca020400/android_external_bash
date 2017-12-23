@@ -33,7 +33,8 @@ LOCAL_STATIC_LIBRARIES += \
 	libsh \
 	libtilde \
 	libhistory \
-	libreadline
+	libreadline \
+	libtermcap
 
 LOCAL_MODULE := bash
 LOCAL_MODULE_PATH := $(TARGET_OUT_OPTIONAL_EXECUTABLES)

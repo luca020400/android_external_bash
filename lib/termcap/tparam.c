@@ -38,6 +38,10 @@ extern char *realloc ();
 #  define bcopy(s, d, n)	memcpy ((d), (s), (n))
 #endif
 
+#ifdef HAVE_UNISTD_H
+#  include <unistd.h>
+#endif
+
 #else /* not HAVE_CONFIG_H */
 
 #if defined(HAVE_STRING_H) || defined(STDC_HEADERS)

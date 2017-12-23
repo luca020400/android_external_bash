@@ -73,7 +73,8 @@ LOCAL_SRC_FILES:= \
 LOCAL_C_INCLUDES += \
 	$(LOCAL_PATH)/../.. \
 	$(LOCAL_PATH)/../../include \
-	$(LOCAL_PATH)/../../lib
+	$(LOCAL_PATH)/../../lib \
+	$(LOCAL_PATH)/../../lib/termcap
 
 LOCAL_CFLAGS += \
 	-DHAVE_CONFIG_H
